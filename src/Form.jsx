@@ -7,6 +7,7 @@ const Form = ({addItem}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        
         if (!newItemName) {
             toast.error('please provide value');
             return};
