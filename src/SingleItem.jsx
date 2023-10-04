@@ -1,4 +1,3 @@
-import { useState } from "react"
 
 const SingleItem = ({ item, removeItem, editItem }) => {
   return (
